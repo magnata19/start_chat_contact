@@ -2,3 +2,5 @@ response.json
 script.json
 url.txt
 start_chat_connect.sh
+node_modules
+dist

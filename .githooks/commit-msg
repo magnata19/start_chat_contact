@@ -1,0 +1,8 @@
+#!/bin/sh
+
+commit_message_file="$1"
+
+if ! grep -q '[^[:space:]]' "$commit_message_file"; then
+  echo "Erro: a mensagem do commit não pode estar vazia."
+  exit 1
+fi

@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "node dist/start_chat_connect_api.js",
+    "prepare": "git config core.hooksPath .githooks"
+  },
+  "dependencies": {
+    "@aws-sdk/client-connect": "^3.1175.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
